@@ -1,0 +1,22 @@
+[1.771s] Invoking command in '/home/orangepi/ros2/src/chassis_driver': PYTHONPATH=/home/orangepi/ros2/build/chassis_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/ros2/install/chassis_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/chassis_driver build --build-base /home/orangepi/ros2/build/chassis_driver/build install --record /home/orangepi/ros2/build/chassis_driver/install.log --single-version-externally-managed install_data
+[2.148s] running egg_info
+[2.173s] writing ../../build/chassis_driver/chassis_driver.egg-info/PKG-INFO
+[2.174s] writing dependency_links to ../../build/chassis_driver/chassis_driver.egg-info/dependency_links.txt
+[2.174s] writing entry points to ../../build/chassis_driver/chassis_driver.egg-info/entry_points.txt
+[2.175s] writing requirements to ../../build/chassis_driver/chassis_driver.egg-info/requires.txt
+[2.176s] writing top-level names to ../../build/chassis_driver/chassis_driver.egg-info/top_level.txt
+[2.176s] reading manifest file '../../build/chassis_driver/chassis_driver.egg-info/SOURCES.txt'
+[2.177s] adding license file 'LICENSE'
+[2.177s] writing manifest file '../../build/chassis_driver/chassis_driver.egg-info/SOURCES.txt'
+[2.178s] running build
+[2.178s] running build_py
+[2.179s] running install
+[2.187s] running install_lib
+[2.187s] running install_data
+[2.187s] running install_egg_info
+[2.187s] removing '/home/orangepi/ros2/install/chassis_driver/lib/python3.10/site-packages/chassis_driver-0.0.0-py3.10.egg-info' (and everything under it)
+[2.194s] Copying ../../build/chassis_driver/chassis_driver.egg-info to /home/orangepi/ros2/install/chassis_driver/lib/python3.10/site-packages/chassis_driver-0.0.0-py3.10.egg-info
+[2.203s] running install_scripts
+[2.249s] Installing serial_bridge script to /home/orangepi/ros2/install/chassis_driver/lib/chassis_driver
+[2.250s] writing list of installed files to '/home/orangepi/ros2/build/chassis_driver/install.log'
+[2.342s] Invoked command in '/home/orangepi/ros2/src/chassis_driver' returned '0': PYTHONPATH=/home/orangepi/ros2/build/chassis_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/ros2/install/chassis_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/chassis_driver build --build-base /home/orangepi/ros2/build/chassis_driver/build install --record /home/orangepi/ros2/build/chassis_driver/install.log --single-version-externally-managed install_data

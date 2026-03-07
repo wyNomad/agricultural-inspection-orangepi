@@ -1,0 +1,36 @@
+[1.095s] Invoking command in '/home/orangepi/ros2/src/my_robot_launch': AMENT_PREFIX_PATH=/home/orangepi/ros2/install/astra_camera:/home/orangepi/ros2/install/chassis_driver:/home/orangepi/ros2/install/astra_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/ros2/install/astra_camera:/home/orangepi/ros2/install/astra_camera_msgs LD_LIBRARY_PATH=/home/orangepi/ros2/install/astra_camera/lib:/home/orangepi/ros2/install/astra_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/ros2/build/my_robot_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/ros2/install/my_robot_launch/lib/python3.10/site-packages:/home/orangepi/ros2/install/chassis_driver/lib/python3.10/site-packages:/home/orangepi/ros2/install/astra_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_launch build --build-base /home/orangepi/ros2/build/my_robot_launch/build install --record /home/orangepi/ros2/build/my_robot_launch/install.log --single-version-externally-managed install_data
+[1.458s] running egg_info
+[1.459s] creating ../../build/my_robot_launch/my_robot_launch.egg-info
+[1.459s] writing ../../build/my_robot_launch/my_robot_launch.egg-info/PKG-INFO
+[1.460s] writing dependency_links to ../../build/my_robot_launch/my_robot_launch.egg-info/dependency_links.txt
+[1.460s] writing entry points to ../../build/my_robot_launch/my_robot_launch.egg-info/entry_points.txt
+[1.461s] writing requirements to ../../build/my_robot_launch/my_robot_launch.egg-info/requires.txt
+[1.461s] writing top-level names to ../../build/my_robot_launch/my_robot_launch.egg-info/top_level.txt
+[1.462s] writing manifest file '../../build/my_robot_launch/my_robot_launch.egg-info/SOURCES.txt'
+[1.465s] reading manifest file '../../build/my_robot_launch/my_robot_launch.egg-info/SOURCES.txt'
+[1.465s] adding license file 'LICENSE'
+[1.467s] writing manifest file '../../build/my_robot_launch/my_robot_launch.egg-info/SOURCES.txt'
+[1.467s] running build
+[1.467s] running build_py
+[1.467s] creating /home/orangepi/ros2/build/my_robot_launch/build
+[1.467s] creating /home/orangepi/ros2/build/my_robot_launch/build/lib
+[1.467s] creating /home/orangepi/ros2/build/my_robot_launch/build/lib/my_robot_launch
+[1.467s] copying my_robot_launch/__init__.py -> /home/orangepi/ros2/build/my_robot_launch/build/lib/my_robot_launch
+[1.468s] running install
+[1.469s] running install_lib
+[1.470s] creating /home/orangepi/ros2/install/my_robot_launch/lib/python3.10/site-packages/my_robot_launch
+[1.470s] copying /home/orangepi/ros2/build/my_robot_launch/build/lib/my_robot_launch/__init__.py -> /home/orangepi/ros2/install/my_robot_launch/lib/python3.10/site-packages/my_robot_launch
+[1.471s] byte-compiling /home/orangepi/ros2/install/my_robot_launch/lib/python3.10/site-packages/my_robot_launch/__init__.py to __init__.cpython-310.pyc
+[1.472s] running install_data
+[1.472s] creating /home/orangepi/ros2/install/my_robot_launch/share/ament_index
+[1.472s] creating /home/orangepi/ros2/install/my_robot_launch/share/ament_index/resource_index
+[1.472s] creating /home/orangepi/ros2/install/my_robot_launch/share/ament_index/resource_index/packages
+[1.472s] copying resource/my_robot_launch -> /home/orangepi/ros2/install/my_robot_launch/share/ament_index/resource_index/packages
+[1.472s] copying package.xml -> /home/orangepi/ros2/install/my_robot_launch/share/my_robot_launch
+[1.473s] creating /home/orangepi/ros2/install/my_robot_launch/share/my_robot_launch/launch
+[1.473s] copying launch/robot_launch.py -> /home/orangepi/ros2/install/my_robot_launch/share/my_robot_launch/launch
+[1.473s] running install_egg_info
+[1.476s] Copying ../../build/my_robot_launch/my_robot_launch.egg-info to /home/orangepi/ros2/install/my_robot_launch/lib/python3.10/site-packages/my_robot_launch-0.0.0-py3.10.egg-info
+[1.477s] running install_scripts
+[1.525s] writing list of installed files to '/home/orangepi/ros2/build/my_robot_launch/install.log'
+[1.605s] Invoked command in '/home/orangepi/ros2/src/my_robot_launch' returned '0': AMENT_PREFIX_PATH=/home/orangepi/ros2/install/astra_camera:/home/orangepi/ros2/install/chassis_driver:/home/orangepi/ros2/install/astra_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/ros2/install/astra_camera:/home/orangepi/ros2/install/astra_camera_msgs LD_LIBRARY_PATH=/home/orangepi/ros2/install/astra_camera/lib:/home/orangepi/ros2/install/astra_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/ros2/build/my_robot_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/ros2/install/my_robot_launch/lib/python3.10/site-packages:/home/orangepi/ros2/install/chassis_driver/lib/python3.10/site-packages:/home/orangepi/ros2/install/astra_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_launch build --build-base /home/orangepi/ros2/build/my_robot_launch/build install --record /home/orangepi/ros2/build/my_robot_launch/install.log --single-version-externally-managed install_data

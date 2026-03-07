@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "lslidar_msgs__py",
+		"source" : "/home/orangepi/ros2/build/lslidar_msgs/lslidar_msgs__py"
+	}
+}

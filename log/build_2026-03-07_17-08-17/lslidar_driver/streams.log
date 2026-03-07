@@ -1,0 +1,191 @@
+[0.017s] Invoking command in '/home/orangepi/ros2/build/lslidar_driver': AMENT_PREFIX_PATH=/home/orangepi/ros2/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/ros2/install/lslidar_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/ros2/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/ros2/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/orangepi/ros2/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver -DCMAKE_INSTALL_PREFIX=/home/orangepi/ros2/install/lslidar_driver
+[0.134s] -- The C compiler identification is GNU 11.4.0
+[0.267s] -- The CXX compiler identification is GNU 11.4.0
+[0.278s] -- Detecting C compiler ABI info
+[0.497s] -- Detecting C compiler ABI info - done
+[0.519s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.520s] -- Detecting C compile features
+[0.520s] -- Detecting C compile features - done
+[0.524s] -- Detecting CXX compiler ABI info
+[0.743s] -- Detecting CXX compiler ABI info - done
+[0.755s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.755s] -- Detecting CXX compile features
+[0.756s] -- Detecting CXX compile features - done
+[1.233s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+[1.237s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[1.591s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.825s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.829s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.847s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.863s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.884s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.942s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.946s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.146s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.188s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.279s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.290s] -- Found Threads: TRUE  
+[2.420s] -- Checking for module 'eigen3'
+[2.442s] --   Found eigen3, version 3.4.0
+[2.512s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[2.512s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.545s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[2.568s] -- Checking for module 'flann'
+[2.608s] --   Found flann, version 1.9.1
+[2.712s] -- Found FLANN: /usr/lib/aarch64-linux-gnu/libflann_cpp.so  
+[2.712s] -- FLANN found (include: /usr/include, lib: /usr/lib/aarch64-linux-gnu/libflann_cpp.so)
+[2.781s] -- Found GLEW: /usr/lib/aarch64-linux-gnu/libGLEW.so  
+[2.791s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[3.184s] -- Found MPI_C: /usr/lib/aarch64-linux-gnu/libmpi.so (found version "3.1") 
+[3.184s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[3.191s] -- Found JsonCpp: /usr/lib/aarch64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[3.213s] -- Found ZLIB: /usr/lib/aarch64-linux-gnu/libz.so (found version "1.2.11") 
+[3.245s] -- Found PNG: /usr/lib/aarch64-linux-gnu/libpng.so (found version "1.6.37") 
+[3.278s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[3.491s] -- Found X11: /usr/include   
+[3.495s] -- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so
+[3.738s] -- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so - found
+[3.739s] -- Looking for gethostbyname
+[3.947s] -- Looking for gethostbyname - found
+[3.948s] -- Looking for connect
+[4.162s] -- Looking for connect - found
+[4.162s] -- Looking for remove
+[4.383s] -- Looking for remove - found
+[4.384s] -- Looking for shmat
+[4.653s] -- Looking for shmat - found
+[4.653s] -- Looking for IceConnectionNumber in ICE
+[4.881s] -- Looking for IceConnectionNumber in ICE - found
+[5.088s] -- Found EXPAT: /usr/lib/aarch64-linux-gnu/libexpat.so (found version "2.4.7") 
+[5.095s] -- Found double-conversion: /usr/lib/aarch64-linux-gnu/libdouble-conversion.so  
+[5.099s] -- Found LZ4: /usr/lib/aarch64-linux-gnu/liblz4.so (found version "1.9.3") 
+[5.102s] -- Found LZMA: /usr/lib/aarch64-linux-gnu/liblzma.so (found version "5.2.5") 
+[5.126s] -- Found JPEG: /usr/lib/aarch64-linux-gnu/libjpeg.so (found version "80") 
+[5.156s] -- Found TIFF: /usr/lib/aarch64-linux-gnu/libtiff.so (found version "4.3.0")  
+[5.168s] -- Found Freetype: /usr/lib/aarch64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[5.193s] -- Found utf8cpp: /usr/include/utf8cpp  
+[5.372s] -- Checking for module 'libusb-1.0'
+[5.411s] --   Found libusb-1.0, version 1.0.25
+[5.513s] -- Found libusb: /usr/lib/aarch64-linux-gnu/libusb-1.0.so  
+[5.519s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[5.520s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.718s] -- Found OpenNI2: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[5.719s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[5.719s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[6.082s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[6.094s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[6.108s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[6.436s] -- Found Qhull version 8.0.2
+[6.774s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[7.065s] -- looking for PCL_COMMON
+[7.066s] -- Found PCL_COMMON: /usr/lib/aarch64-linux-gnu/libpcl_common.so  
+[7.067s] -- looking for PCL_KDTREE
+[7.070s] -- Found PCL_KDTREE: /usr/lib/aarch64-linux-gnu/libpcl_kdtree.so  
+[7.070s] -- looking for PCL_OCTREE
+[7.071s] -- Found PCL_OCTREE: /usr/lib/aarch64-linux-gnu/libpcl_octree.so  
+[7.072s] -- looking for PCL_SEARCH
+[7.073s] -- Found PCL_SEARCH: /usr/lib/aarch64-linux-gnu/libpcl_search.so  
+[7.073s] -- looking for PCL_SAMPLE_CONSENSUS
+[7.074s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/aarch64-linux-gnu/libpcl_sample_consensus.so  
+[7.075s] -- looking for PCL_FILTERS
+[7.076s] -- Found PCL_FILTERS: /usr/lib/aarch64-linux-gnu/libpcl_filters.so  
+[7.076s] -- looking for PCL_2D
+[7.077s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[7.077s] -- looking for PCL_GEOMETRY
+[7.077s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[7.077s] -- looking for PCL_IO
+[7.080s] -- Found PCL_IO: /usr/lib/aarch64-linux-gnu/libpcl_io.so  
+[7.080s] -- looking for PCL_FEATURES
+[7.081s] -- Found PCL_FEATURES: /usr/lib/aarch64-linux-gnu/libpcl_features.so  
+[7.081s] -- looking for PCL_ML
+[7.082s] -- Found PCL_ML: /usr/lib/aarch64-linux-gnu/libpcl_ml.so  
+[7.083s] -- looking for PCL_SEGMENTATION
+[7.086s] -- Found PCL_SEGMENTATION: /usr/lib/aarch64-linux-gnu/libpcl_segmentation.so  
+[7.087s] -- looking for PCL_VISUALIZATION
+[7.088s] -- Found PCL_VISUALIZATION: /usr/lib/aarch64-linux-gnu/libpcl_visualization.so  
+[7.088s] -- looking for PCL_SURFACE
+[7.090s] -- Found PCL_SURFACE: /usr/lib/aarch64-linux-gnu/libpcl_surface.so  
+[7.092s] -- looking for PCL_REGISTRATION
+[7.095s] -- Found PCL_REGISTRATION: /usr/lib/aarch64-linux-gnu/libpcl_registration.so  
+[7.095s] -- looking for PCL_KEYPOINTS
+[7.097s] -- Found PCL_KEYPOINTS: /usr/lib/aarch64-linux-gnu/libpcl_keypoints.so  
+[7.097s] -- looking for PCL_TRACKING
+[7.100s] -- Found PCL_TRACKING: /usr/lib/aarch64-linux-gnu/libpcl_tracking.so  
+[7.100s] -- looking for PCL_RECOGNITION
+[7.102s] -- Found PCL_RECOGNITION: /usr/lib/aarch64-linux-gnu/libpcl_recognition.so  
+[7.103s] -- looking for PCL_STEREO
+[7.105s] -- Found PCL_STEREO: /usr/lib/aarch64-linux-gnu/libpcl_stereo.so  
+[7.105s] -- looking for PCL_APPS
+[7.106s] -- Found PCL_APPS: /usr/lib/aarch64-linux-gnu/libpcl_apps.so  
+[7.107s] -- looking for PCL_IN_HAND_SCANNER
+[7.108s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[7.108s] -- looking for PCL_MODELER
+[7.109s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[7.110s] -- looking for PCL_POINT_CLOUD_EDITOR
+[7.110s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[7.110s] -- looking for PCL_OUTOFCORE
+[7.112s] -- Found PCL_OUTOFCORE: /usr/lib/aarch64-linux-gnu/libpcl_outofcore.so  
+[7.113s] -- looking for PCL_PEOPLE
+[7.114s] -- Found PCL_PEOPLE: /usr/lib/aarch64-linux-gnu/libpcl_people.so  
+[7.115s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[7.124s] -- Found diagnostic_updater: 4.0.6 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[7.171s] -- Found lslidar_msgs: 1.2.0 (/home/orangepi/ros2/install/lslidar_msgs/share/lslidar_msgs/cmake)
+[7.194s] -- Found pluginlib: 5.1.3 (/opt/ros/humble/share/pluginlib/cmake)
+[7.225s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[7.476s] -- Configuring done
+[7.632s] -- Generating done
+[7.653s] -- Build files have been written to: /home/orangepi/ros2/build/lslidar_driver
+[7.697s] Invoked command in '/home/orangepi/ros2/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/home/orangepi/ros2/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/ros2/install/lslidar_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/ros2/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/ros2/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/orangepi/ros2/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver -DCMAKE_INSTALL_PREFIX=/home/orangepi/ros2/install/lslidar_driver
+[7.699s] Invoking command in '/home/orangepi/ros2/build/lslidar_driver': AMENT_PREFIX_PATH=/home/orangepi/ros2/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/ros2/install/lslidar_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/ros2/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/ros2/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/orangepi/ros2/build/lslidar_driver -- -j8 -l8
+[7.811s] [ 20%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver_node.cc.o[0m
+[24.131s] [ 40%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lsiosr.cpp.o[0m
+[24.998s] [ 60%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/input.cc.o[0m
+[32.175s] [ 80%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver.cc.o[0m
+[61.386s] [100%] [32m[1mLinking CXX executable lslidar_driver_node[0m
+[65.964s] [100%] Built target lslidar_driver_node
+[65.985s] Invoked command in '/home/orangepi/ros2/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/home/orangepi/ros2/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/ros2/install/lslidar_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/ros2/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/ros2/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/orangepi/ros2/build/lslidar_driver -- -j8 -l8
+[65.986s] Invoking command in '/home/orangepi/ros2/build/lslidar_driver': AMENT_PREFIX_PATH=/home/orangepi/ros2/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/ros2/install/lslidar_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/ros2/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/ros2/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/orangepi/ros2/build/lslidar_driver
+[66.001s] -- Install configuration: ""
+[66.001s] -- Installing: /home/orangepi/ros2/install/lslidar_driver/share/lslidar_driver/launch
+[66.001s] -- Installing: /home/orangepi/ros2/install/lslidar_driver/share/lslidar_driver/launch/lsn10p_net_launch.py
+[66.001s] -- Installing: /home/orangepi/ros2/install/lslidar_driver/share/lslidar_driver/launch/lsn10_net_launch.py
+[66.002s] -- Installing: /home/orangepi/ros2/install/lslidar_driver/share/lslidar_driver/launch/lsm10_uart_launch.py
+[66.002s] -- Installing: /home/orangepi/ros2/install/lslidar_driver/share/lslidar_driver/launch/viewer_scan_launch.py
+[66.002s] -- Installing: /home/orangepi/ros2/install/lslidar_driver/share/lslidar_driver/launch/lsm10_net_launch.py
+[66.003s] -- Installing: /home/orangepi/ros2/install/lslidar_driver/share/lslidar_driver/launch/lslidar_double_launch.py
+[66.003s] -- Installing: /home/orangepi/ros2/install/lslidar_driver/share/lslidar_driver/launch/lsm10p_uart_launch.py
+[66.003s] -- Installing: /home/orangepi/ros2/install/lslidar_driver/share/lslidar_driver/launch/lsn10p_launch.py
+[66.004s] -- Installing: /home/orangepi/ros2/install/lslidar_driver/share/lslidar_driver/launch/lsm10p_net_launch.py
+[66.004s] -- Installing: /home/orangepi/ros2/install/lslidar_driver/share/lslidar_driver/launch/lsn10_launch.py
+[66.005s] -- Installing: /home/orangepi/ros2/install/lslidar_driver/share/lslidar_driver/params
+[66.005s] -- Installing: /home/orangepi/ros2/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2
+[66.005s] -- Installing: /home/orangepi/ros2/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsn10_net.yaml
+[66.006s] -- Installing: /home/orangepi/ros2/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsm10p_net.yaml
+[66.006s] -- Installing: /home/orangepi/ros2/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsn10p_net.yaml
+[66.006s] -- Installing: /home/orangepi/ros2/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsm10_net.yaml
+[66.007s] -- Installing: /home/orangepi/ros2/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2
+[66.007s] -- Installing: /home/orangepi/ros2/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsn10.yaml
+[66.007s] -- Installing: /home/orangepi/ros2/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsn10p.yaml
+[66.008s] -- Installing: /home/orangepi/ros2/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsm10_p.yaml
+[66.008s] -- Installing: /home/orangepi/ros2/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsm10.yaml
+[66.008s] -- Installing: /home/orangepi/ros2/install/lslidar_driver/share/lslidar_driver/rviz
+[66.009s] -- Installing: /home/orangepi/ros2/install/lslidar_driver/share/lslidar_driver/rviz/lslidar.rviz
+[66.009s] -- Installing: /home/orangepi/ros2/install/lslidar_driver/lib/lslidar_driver/lslidar_driver_node
+[66.014s] -- Set runtime path of "/home/orangepi/ros2/install/lslidar_driver/lib/lslidar_driver/lslidar_driver_node" to ""
+[66.015s] -- Installing: /home/orangepi/ros2/install/lslidar_driver/share/ament_index/resource_index/package_run_dependencies/lslidar_driver
+[66.016s] -- Installing: /home/orangepi/ros2/install/lslidar_driver/share/ament_index/resource_index/parent_prefix_path/lslidar_driver
+[66.017s] -- Installing: /home/orangepi/ros2/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.sh
+[66.017s] -- Installing: /home/orangepi/ros2/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.dsv
+[66.023s] -- Installing: /home/orangepi/ros2/install/lslidar_driver/share/lslidar_driver/environment/path.sh
+[66.024s] -- Installing: /home/orangepi/ros2/install/lslidar_driver/share/lslidar_driver/environment/path.dsv
+[66.024s] -- Installing: /home/orangepi/ros2/install/lslidar_driver/share/lslidar_driver/local_setup.bash
+[66.025s] -- Installing: /home/orangepi/ros2/install/lslidar_driver/share/lslidar_driver/local_setup.sh
+[66.025s] -- Installing: /home/orangepi/ros2/install/lslidar_driver/share/lslidar_driver/local_setup.zsh
+[66.025s] -- Installing: /home/orangepi/ros2/install/lslidar_driver/share/lslidar_driver/local_setup.dsv
+[66.025s] -- Installing: /home/orangepi/ros2/install/lslidar_driver/share/lslidar_driver/package.dsv
+[66.025s] -- Installing: /home/orangepi/ros2/install/lslidar_driver/share/ament_index/resource_index/packages/lslidar_driver
+[66.025s] -- Installing: /home/orangepi/ros2/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[66.025s] -- Installing: /home/orangepi/ros2/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[66.025s] -- Installing: /home/orangepi/ros2/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig.cmake
+[66.025s] -- Installing: /home/orangepi/ros2/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig-version.cmake
+[66.025s] -- Installing: /home/orangepi/ros2/install/lslidar_driver/share/lslidar_driver/package.xml
+[66.036s] Invoked command in '/home/orangepi/ros2/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/home/orangepi/ros2/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/ros2/install/lslidar_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/ros2/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/ros2/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/orangepi/ros2/build/lslidar_driver

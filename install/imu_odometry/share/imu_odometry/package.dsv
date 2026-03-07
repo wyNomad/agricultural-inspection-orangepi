@@ -1,0 +1,6 @@
+source;share/imu_odometry/hook/pythonpath.ps1
+source;share/imu_odometry/hook/pythonpath.dsv
+source;share/imu_odometry/hook/pythonpath.sh
+source;share/imu_odometry/hook/ament_prefix_path.ps1
+source;share/imu_odometry/hook/ament_prefix_path.dsv
+source;share/imu_odometry/hook/ament_prefix_path.sh

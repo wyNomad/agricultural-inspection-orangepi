@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/chassis_driver/chassis_driver.egg-info
+writing ../../build/chassis_driver/chassis_driver.egg-info/PKG-INFO
+writing dependency_links to ../../build/chassis_driver/chassis_driver.egg-info/dependency_links.txt
+writing entry points to ../../build/chassis_driver/chassis_driver.egg-info/entry_points.txt
+writing requirements to ../../build/chassis_driver/chassis_driver.egg-info/requires.txt
+writing top-level names to ../../build/chassis_driver/chassis_driver.egg-info/top_level.txt
+writing manifest file '../../build/chassis_driver/chassis_driver.egg-info/SOURCES.txt'
+reading manifest file '../../build/chassis_driver/chassis_driver.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/chassis_driver/chassis_driver.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/orangepi/ros2/build/chassis_driver/build
+creating /home/orangepi/ros2/build/chassis_driver/build/lib
+creating /home/orangepi/ros2/build/chassis_driver/build/lib/chassis_driver
+copying chassis_driver/serial_bridge.py -> /home/orangepi/ros2/build/chassis_driver/build/lib/chassis_driver
+copying chassis_driver/__init__.py -> /home/orangepi/ros2/build/chassis_driver/build/lib/chassis_driver
+running install
+running install_lib
+creating /home/orangepi/ros2/install/chassis_driver/lib/python3.10/site-packages/chassis_driver
+copying /home/orangepi/ros2/build/chassis_driver/build/lib/chassis_driver/serial_bridge.py -> /home/orangepi/ros2/install/chassis_driver/lib/python3.10/site-packages/chassis_driver
+copying /home/orangepi/ros2/build/chassis_driver/build/lib/chassis_driver/__init__.py -> /home/orangepi/ros2/install/chassis_driver/lib/python3.10/site-packages/chassis_driver
+byte-compiling /home/orangepi/ros2/install/chassis_driver/lib/python3.10/site-packages/chassis_driver/serial_bridge.py to serial_bridge.cpython-310.pyc
+byte-compiling /home/orangepi/ros2/install/chassis_driver/lib/python3.10/site-packages/chassis_driver/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/orangepi/ros2/install/chassis_driver/share/ament_index
+creating /home/orangepi/ros2/install/chassis_driver/share/ament_index/resource_index
+creating /home/orangepi/ros2/install/chassis_driver/share/ament_index/resource_index/packages
+copying resource/chassis_driver -> /home/orangepi/ros2/install/chassis_driver/share/ament_index/resource_index/packages
+copying package.xml -> /home/orangepi/ros2/install/chassis_driver/share/chassis_driver
+running install_egg_info
+Copying ../../build/chassis_driver/chassis_driver.egg-info to /home/orangepi/ros2/install/chassis_driver/lib/python3.10/site-packages/chassis_driver-0.0.0-py3.10.egg-info
+running install_scripts
+Installing serial_bridge script to /home/orangepi/ros2/install/chassis_driver/lib/chassis_driver
+writing list of installed files to '/home/orangepi/ros2/build/chassis_driver/install.log'

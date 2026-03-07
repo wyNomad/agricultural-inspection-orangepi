@@ -1,0 +1,116 @@
+[0.031s] Invoking command in '/home/orangepi/ros2/build/astra_camera': AMENT_PREFIX_PATH=/home/orangepi/ros2/install/astra_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/ros2/install/astra_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/ros2/install/astra_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/ros2/install/astra_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/orangepi/ros2/build/astra_camera -- -j8 -l8
+[0.142s] [35m[1mConsolidate compiler generated dependencies of target astra_camera[0m
+[0.221s] [ 68%] Built target astra_camera
+[0.258s] [35m[1mConsolidate compiler generated dependencies of target astra_camera_node[0m
+[0.260s] [35m[1mConsolidate compiler generated dependencies of target list_devices_node[0m
+[0.303s] [ 78%] Built target list_devices_node
+[0.318s] [35m[1mConsolidate compiler generated dependencies of target clean_shm_node[0m
+[0.337s] [ 89%] Built target astra_camera_node
+[0.347s] [100%] Built target clean_shm_node
+[0.385s] Invoked command in '/home/orangepi/ros2/build/astra_camera' returned '0': AMENT_PREFIX_PATH=/home/orangepi/ros2/install/astra_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/ros2/install/astra_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/ros2/install/astra_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/ros2/install/astra_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/orangepi/ros2/build/astra_camera -- -j8 -l8
+[0.393s] Invoking command in '/home/orangepi/ros2/build/astra_camera': AMENT_PREFIX_PATH=/home/orangepi/ros2/install/astra_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/ros2/install/astra_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/ros2/install/astra_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/ros2/install/astra_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/orangepi/ros2/build/astra_camera
+[0.426s] -- Install configuration: "Debug"
+[0.426s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/lib/libastra_camera.so
+[0.428s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/lib/libOpenNI2.so
+[0.429s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/lib//OpenNI2
+[0.430s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/lib//OpenNI2/Drivers
+[0.431s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/lib//OpenNI2/Drivers/liborbbec.so
+[0.432s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/lib//OpenNI2/Drivers/OniFile.ini
+[0.432s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/lib//OpenNI2/Drivers/orbbec.ini
+[0.433s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/lib//OpenNI2/Drivers/libOniFile.so
+[0.435s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/lib/astra_camera/list_devices_node
+[0.435s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/lib/astra_camera/clean_shm_node
+[0.437s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/lib/astra_camera/astra_camera_node
+[0.439s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/include
+[0.439s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/include/astra_camera
+[0.440s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/include/astra_camera/ros_param_backend.h
+[0.440s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/include/astra_camera/json.hpp
+[0.440s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/include/astra_camera/ob_camera_node_factory.h
+[0.440s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/include/astra_camera/point_cloud_proc
+[0.440s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/include/astra_camera/point_cloud_proc/point_cloud_proc.h
+[0.440s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/include/astra_camera/point_cloud_proc/depth_traits.h
+[0.440s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/include/astra_camera/point_cloud_proc/point_cloud_xyzrgb.h
+[0.440s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/include/astra_camera/point_cloud_proc/point_cloud_xyz.h
+[0.440s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/include/astra_camera/dynamic_params.h
+[0.441s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/include/astra_camera/ob_camera_node.h
+[0.441s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/include/astra_camera/utils.h
+[0.441s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/include/astra_camera/ob_context.h
+[0.441s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/include/astra_camera/uvc_camera_driver.h
+[0.441s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/include/astra_camera/ob_timer_filter.h
+[0.441s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/include/astra_camera/types.h
+[0.441s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/include/astra_camera/constants.h
+[0.441s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/include/magic_enum
+[0.441s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/include/magic_enum/magic_enum.hpp
+[0.441s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/include/openni2
+[0.441s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/include/openni2/OniPlatform.h
+[0.441s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/include/openni2/Driver
+[0.441s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/include/openni2/Driver/OniDriverAPI.h
+[0.442s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/include/openni2/Driver/OniDriverTypes.h
+[0.442s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/include/openni2/PS1080.h
+[0.442s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/include/openni2/OpenNI.h
+[0.442s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/include/openni2/OniProperties.h
+[0.442s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/include/openni2/Linux-Arm
+[0.442s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/include/openni2/Linux-Arm/OniPlatformLinux-Arm.h
+[0.442s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/include/openni2/MacOSX
+[0.442s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/include/openni2/MacOSX/OniPlatformMacOSX.h
+[0.442s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/include/openni2/Android-Arm
+[0.443s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/include/openni2/Android-Arm/OniPlatformAndroid-Arm.h
+[0.443s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/include/openni2/PrimeSense.h
+[0.443s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/include/openni2/OniVersion.h
+[0.443s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/include/openni2/KinectProperties.h
+[0.443s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/include/openni2/OniCTypes.h
+[0.443s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/include/openni2/OniEnums.h
+[0.443s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/include/openni2/OniTest.h
+[0.443s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/include/openni2/OniCProperties.h
+[0.444s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/include/openni2/SonixCamera.h
+[0.444s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/include/openni2/OniCEnums.h
+[0.444s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/include/openni2/Linux-x86
+[0.444s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/include/openni2/Linux-x86/OniPlatformLinux-x86.h
+[0.444s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/include/openni2/OniCAPI.h
+[0.444s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/include/openni2/PSLink.h
+[0.444s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/include/openni2/util.h
+[0.444s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/share/astra_camera//launch
+[0.444s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/share/astra_camera//launch/multi_gemini.launch.xml
+[0.444s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/share/astra_camera//launch/gemini.launch.xml
+[0.444s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/share/astra_camera//launch/embedded_u3.launch.xml
+[0.445s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/share/astra_camera//launch/multi_astra.launch.xml
+[0.445s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/share/astra_camera//launch/dabai_pro.launch.xml
+[0.445s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/share/astra_camera//launch/.gitkeep
+[0.445s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/share/astra_camera//launch/dabai_u3.launch.xml
+[0.445s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/share/astra_camera//launch/multi_deeyea.launch.xml
+[0.445s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/share/astra_camera//launch/multi_dabai_dcw.launch.xml
+[0.445s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/share/astra_camera//launch/astra_pro.launch.xml
+[0.445s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/share/astra_camera//launch/embedded_s.launch.xml
+[0.445s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/share/astra_camera//launch/dabai_dcw.launch.xml
+[0.445s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/share/astra_camera//launch/dabai_dw.launch.xml
+[0.445s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/share/astra_camera//launch/stereo_s_u3.launch.xml
+[0.445s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/share/astra_camera//launch/list_devices.launch.xml
+[0.445s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/share/astra_camera//launch/astra.launch.xml
+[0.445s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/share/astra_camera//launch/deeyea.launch.xml
+[0.446s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/share/astra_camera//launch/gemini_e.launch.xml
+[0.447s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/share/astra_camera//launch/dabai_dc1.launch.xml
+[0.448s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/share/astra_camera//launch/gemini_e_lite.launch.xml
+[0.450s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/share/astra_camera//launch/multi_dabai_pro.launch.xml
+[0.454s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/share/astra_camera//launch/astro_pro_plus.launch.xml
+[0.457s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/share/astra_camera//launch/stereo_s.launch.xml
+[0.458s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/share/astra_camera/environment/library_path.sh
+[0.459s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/share/astra_camera/environment/library_path.dsv
+[0.459s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/share/ament_index/resource_index/package_run_dependencies/astra_camera
+[0.461s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/share/ament_index/resource_index/parent_prefix_path/astra_camera
+[0.462s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/share/astra_camera/environment/ament_prefix_path.sh
+[0.463s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/share/astra_camera/environment/ament_prefix_path.dsv
+[0.463s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/share/astra_camera/environment/path.sh
+[0.463s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/share/astra_camera/environment/path.dsv
+[0.463s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/share/astra_camera/local_setup.bash
+[0.463s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/share/astra_camera/local_setup.sh
+[0.463s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/share/astra_camera/local_setup.zsh
+[0.463s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/share/astra_camera/local_setup.dsv
+[0.464s] -- Installing: /home/orangepi/ros2/install/astra_camera/share/astra_camera/package.dsv
+[0.464s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/share/ament_index/resource_index/packages/astra_camera
+[0.464s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/share/astra_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.464s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/share/astra_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[0.464s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/share/astra_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.464s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/share/astra_camera/cmake/astra_cameraConfig.cmake
+[0.464s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/share/astra_camera/cmake/astra_cameraConfig-version.cmake
+[0.464s] -- Up-to-date: /home/orangepi/ros2/install/astra_camera/share/astra_camera/package.xml
+[0.466s] Invoked command in '/home/orangepi/ros2/build/astra_camera' returned '0': AMENT_PREFIX_PATH=/home/orangepi/ros2/install/astra_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/ros2/install/astra_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/ros2/install/astra_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/ros2/install/astra_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/orangepi/ros2/build/astra_camera

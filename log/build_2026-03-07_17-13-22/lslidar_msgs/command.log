@@ -1,0 +1,1 @@
+Invoking command in '/home/orangepi/ros2_ws/build/lslidar_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/orangepi/ros2_ws/build/lslidar_msgs -- -j8 -l8

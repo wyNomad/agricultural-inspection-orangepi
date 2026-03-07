@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "astra_camera_msgs__py",
+		"source" : "/home/orangepi/ros2/build/astra_camera_msgs/astra_camera_msgs__py"
+	}
+}

@@ -1,0 +1,38 @@
+[1.656s] Invoking command in '/home/orangepi/ros2/src/imu_odometry': PYTHONPATH=/home/orangepi/ros2/build/imu_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/ros2/install/imu_odometry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/imu_odometry build --build-base /home/orangepi/ros2/build/imu_odometry/build install --record /home/orangepi/ros2/build/imu_odometry/install.log --single-version-externally-managed install_data
+[2.016s] running egg_info
+[2.016s] creating ../../build/imu_odometry/imu_odometry.egg-info
+[2.018s] writing ../../build/imu_odometry/imu_odometry.egg-info/PKG-INFO
+[2.019s] writing dependency_links to ../../build/imu_odometry/imu_odometry.egg-info/dependency_links.txt
+[2.019s] writing entry points to ../../build/imu_odometry/imu_odometry.egg-info/entry_points.txt
+[2.020s] writing requirements to ../../build/imu_odometry/imu_odometry.egg-info/requires.txt
+[2.020s] writing top-level names to ../../build/imu_odometry/imu_odometry.egg-info/top_level.txt
+[2.020s] writing manifest file '../../build/imu_odometry/imu_odometry.egg-info/SOURCES.txt'
+[2.024s] reading manifest file '../../build/imu_odometry/imu_odometry.egg-info/SOURCES.txt'
+[2.024s] adding license file 'LICENSE'
+[2.026s] writing manifest file '../../build/imu_odometry/imu_odometry.egg-info/SOURCES.txt'
+[2.026s] running build
+[2.026s] running build_py
+[2.026s] creating /home/orangepi/ros2/build/imu_odometry/build
+[2.029s] creating /home/orangepi/ros2/build/imu_odometry/build/lib
+[2.029s] creating /home/orangepi/ros2/build/imu_odometry/build/lib/imu_odometry
+[2.030s] copying imu_odometry/imu_node.py -> /home/orangepi/ros2/build/imu_odometry/build/lib/imu_odometry
+[2.033s] copying imu_odometry/__init__.py -> /home/orangepi/ros2/build/imu_odometry/build/lib/imu_odometry
+[2.033s] running install
+[2.034s] running install_lib
+[2.035s] creating /home/orangepi/ros2/install/imu_odometry/lib/python3.10/site-packages/imu_odometry
+[2.035s] copying /home/orangepi/ros2/build/imu_odometry/build/lib/imu_odometry/imu_node.py -> /home/orangepi/ros2/install/imu_odometry/lib/python3.10/site-packages/imu_odometry
+[2.036s] copying /home/orangepi/ros2/build/imu_odometry/build/lib/imu_odometry/__init__.py -> /home/orangepi/ros2/install/imu_odometry/lib/python3.10/site-packages/imu_odometry
+[2.042s] byte-compiling /home/orangepi/ros2/install/imu_odometry/lib/python3.10/site-packages/imu_odometry/imu_node.py to imu_node.cpython-310.pyc
+[2.042s] byte-compiling /home/orangepi/ros2/install/imu_odometry/lib/python3.10/site-packages/imu_odometry/__init__.py to __init__.cpython-310.pyc
+[2.042s] running install_data
+[2.042s] creating /home/orangepi/ros2/install/imu_odometry/share/ament_index
+[2.042s] creating /home/orangepi/ros2/install/imu_odometry/share/ament_index/resource_index
+[2.042s] creating /home/orangepi/ros2/install/imu_odometry/share/ament_index/resource_index/packages
+[2.042s] copying resource/imu_odometry -> /home/orangepi/ros2/install/imu_odometry/share/ament_index/resource_index/packages
+[2.042s] copying package.xml -> /home/orangepi/ros2/install/imu_odometry/share/imu_odometry
+[2.042s] running install_egg_info
+[2.048s] Copying ../../build/imu_odometry/imu_odometry.egg-info to /home/orangepi/ros2/install/imu_odometry/lib/python3.10/site-packages/imu_odometry-0.0.0-py3.10.egg-info
+[2.049s] running install_scripts
+[2.105s] Installing imu_node script to /home/orangepi/ros2/install/imu_odometry/lib/imu_odometry
+[2.106s] writing list of installed files to '/home/orangepi/ros2/build/imu_odometry/install.log'
+[2.601s] Invoked command in '/home/orangepi/ros2/src/imu_odometry' returned '0': PYTHONPATH=/home/orangepi/ros2/build/imu_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/ros2/install/imu_odometry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/imu_odometry build --build-base /home/orangepi/ros2/build/imu_odometry/build install --record /home/orangepi/ros2/build/imu_odometry/install.log --single-version-externally-managed install_data

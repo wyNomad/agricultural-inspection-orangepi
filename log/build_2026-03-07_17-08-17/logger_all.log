@@ -1,0 +1,548 @@
+[0.133s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.133s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f9ca70850>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f9cc215d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f9cc215d0>>)
+[0.318s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.319s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.319s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.319s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.319s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.319s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.319s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/orangepi/ros2'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228) by extensions ['ignore', 'ignore_ament_install']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228) by extension 'ignore'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228) by extension 'ignore_ament_install'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228) by extensions ['colcon_pkg']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228) by extension 'colcon_pkg'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228) by extensions ['colcon_meta']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228) by extension 'colcon_meta'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228) by extensions ['ros']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228) by extension 'ros'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228) by extensions ['cmake', 'python']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228) by extension 'cmake'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228) by extension 'python'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228) by extensions ['python_setup_py']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228) by extension 'python_setup_py'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src) by extensions ['ignore', 'ignore_ament_install']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src) by extension 'ignore'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src) by extension 'ignore_ament_install'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src) by extensions ['colcon_pkg']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src) by extension 'colcon_pkg'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src) by extensions ['colcon_meta']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src) by extension 'colcon_meta'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src) by extensions ['ros']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src) by extension 'ros'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src) by extensions ['cmake', 'python']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src) by extension 'cmake'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src) by extension 'python'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src) by extensions ['python_setup_py']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src) by extension 'python_setup_py'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver) by extension 'ignore'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver) by extension 'ignore_ament_install'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver) by extensions ['colcon_pkg']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver) by extension 'colcon_pkg'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver) by extensions ['colcon_meta']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver) by extension 'colcon_meta'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver) by extensions ['ros']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver) by extension 'ros'
+[0.344s] DEBUG:colcon.colcon_core.package_identification:Package 'src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver' with type 'ros.ament_cmake' and name 'lslidar_driver'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src/lslidar_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src/lslidar_msgs) by extension 'ignore'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src/lslidar_msgs) by extension 'ignore_ament_install'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src/lslidar_msgs) by extensions ['colcon_pkg']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src/lslidar_msgs) by extension 'colcon_pkg'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src/lslidar_msgs) by extensions ['colcon_meta']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src/lslidar_msgs) by extension 'colcon_meta'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src/lslidar_msgs) by extensions ['ros']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src/lslidar_msgs) by extension 'ros'
+[0.346s] DEBUG:colcon.colcon_core.package_identification:Package 'src/LSLIDAR_X_ROS2-20240228/src/lslidar_msgs' with type 'ros.ament_cmake' and name 'lslidar_msgs'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/chassis_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/chassis_driver) by extension 'ignore'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/chassis_driver) by extension 'ignore_ament_install'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/chassis_driver) by extensions ['colcon_pkg']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/chassis_driver) by extension 'colcon_pkg'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/chassis_driver) by extensions ['colcon_meta']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/chassis_driver) by extension 'colcon_meta'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/chassis_driver) by extensions ['ros']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/chassis_driver) by extension 'ros'
+[0.347s] DEBUG:colcon.colcon_core.package_identification:Package 'src/chassis_driver' with type 'ros.ament_python' and name 'chassis_driver'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_odometry) by extensions ['ignore', 'ignore_ament_install']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_odometry) by extension 'ignore'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_odometry) by extension 'ignore_ament_install'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_odometry) by extensions ['colcon_pkg']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_odometry) by extension 'colcon_pkg'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_odometry) by extensions ['colcon_meta']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_odometry) by extension 'colcon_meta'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_odometry) by extensions ['ros']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_odometry) by extension 'ros'
+[0.349s] DEBUG:colcon.colcon_core.package_identification:Package 'src/imu_odometry' with type 'ros.ament_python' and name 'imu_odometry'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_launch) by extensions ['ignore', 'ignore_ament_install']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_launch) by extension 'ignore'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_launch) by extension 'ignore_ament_install'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_launch) by extensions ['colcon_pkg']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_launch) by extension 'colcon_pkg'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_launch) by extensions ['colcon_meta']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_launch) by extension 'colcon_meta'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_launch) by extensions ['ros']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_launch) by extension 'ros'
+[0.350s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_launch' with type 'ros.ament_python' and name 'my_robot_launch'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'ignore'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'ignore_ament_install'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extensions ['colcon_pkg']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'colcon_pkg'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extensions ['colcon_meta']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'colcon_meta'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extensions ['ros']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'ros'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extensions ['cmake', 'python']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'cmake'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'python'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extensions ['python_setup_py']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'python_setup_py'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extension 'ignore'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extension 'ignore_ament_install'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extensions ['colcon_pkg']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extension 'colcon_pkg'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extensions ['colcon_meta']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extension 'colcon_meta'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extensions ['ros']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extension 'ros'
+[0.354s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_astra_camera/astra_camera' with type 'ros.ament_cmake' and name 'astra_camera'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extension 'ignore'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extension 'ignore_ament_install'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extensions ['colcon_pkg']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extension 'colcon_pkg'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extensions ['colcon_meta']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extension 'colcon_meta'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extensions ['ros']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extension 'ros'
+[0.355s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_astra_camera/astra_camera_msgs' with type 'ros.ament_cmake' and name 'astra_camera_msgs'
+[0.355s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.355s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.355s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.355s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.355s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'cmake_args' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'cmake_target' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.386s] DEBUG:colcon.colcon_core.verb:Building package 'astra_camera_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/ros2/build/astra_camera_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/ros2/install/astra_camera_msgs', 'merge_install': False, 'path': '/home/orangepi/ros2/src/ros2_astra_camera/astra_camera_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'chassis_driver' build argument 'cmake_args' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'chassis_driver' build argument 'cmake_target' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'chassis_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'chassis_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'chassis_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'chassis_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'chassis_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'chassis_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'chassis_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.386s] DEBUG:colcon.colcon_core.verb:Building package 'chassis_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/ros2/build/chassis_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/ros2/install/chassis_driver', 'merge_install': False, 'path': '/home/orangepi/ros2/src/chassis_driver', 'symlink_install': False, 'test_result_base': None}
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'imu_odometry' build argument 'cmake_args' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'imu_odometry' build argument 'cmake_target' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'imu_odometry' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'imu_odometry' build argument 'cmake_clean_cache' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'imu_odometry' build argument 'cmake_clean_first' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'imu_odometry' build argument 'cmake_force_configure' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'imu_odometry' build argument 'ament_cmake_args' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'imu_odometry' build argument 'catkin_cmake_args' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'imu_odometry' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.387s] DEBUG:colcon.colcon_core.verb:Building package 'imu_odometry' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/ros2/build/imu_odometry', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/ros2/install/imu_odometry', 'merge_install': False, 'path': '/home/orangepi/ros2/src/imu_odometry', 'symlink_install': False, 'test_result_base': None}
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_target' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.388s] DEBUG:colcon.colcon_core.verb:Building package 'lslidar_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/ros2/build/lslidar_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/ros2/install/lslidar_msgs', 'merge_install': False, 'path': '/home/orangepi/ros2/src/LSLIDAR_X_ROS2-20240228/src/lslidar_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'cmake_target' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'cmake_clean_first' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'cmake_force_configure' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'ament_cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.388s] DEBUG:colcon.colcon_core.verb:Building package 'astra_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/ros2/build/astra_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/ros2/install/astra_camera', 'merge_install': False, 'path': '/home/orangepi/ros2/src/ros2_astra_camera/astra_camera', 'symlink_install': False, 'test_result_base': None}
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_target' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.389s] DEBUG:colcon.colcon_core.verb:Building package 'lslidar_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/ros2/build/lslidar_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/ros2/install/lslidar_driver', 'merge_install': False, 'path': '/home/orangepi/ros2/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver', 'symlink_install': False, 'test_result_base': None}
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'my_robot_launch' build argument 'cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'my_robot_launch' build argument 'cmake_target' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'my_robot_launch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'my_robot_launch' build argument 'cmake_clean_cache' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'my_robot_launch' build argument 'cmake_clean_first' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'my_robot_launch' build argument 'cmake_force_configure' from command line to 'False'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'my_robot_launch' build argument 'ament_cmake_args' from command line to 'None'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'my_robot_launch' build argument 'catkin_cmake_args' from command line to 'None'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'my_robot_launch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.390s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_launch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/ros2/build/my_robot_launch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/ros2/install/my_robot_launch', 'merge_install': False, 'path': '/home/orangepi/ros2/src/my_robot_launch', 'symlink_install': False, 'test_result_base': None}
+[0.390s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.394s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.394s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orangepi/ros2/src/ros2_astra_camera/astra_camera_msgs' with build type 'ament_cmake'
+[0.395s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orangepi/ros2/src/ros2_astra_camera/astra_camera_msgs'
+[0.398s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.400s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.401s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.406s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/orangepi/ros2/src/chassis_driver' with build type 'ament_python'
+[0.406s] Level 1:colcon.colcon_core.shell:create_environment_hook('chassis_driver', 'ament_prefix_path')
+[0.407s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2/install/chassis_driver/share/chassis_driver/hook/ament_prefix_path.ps1'
+[0.408s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2/install/chassis_driver/share/chassis_driver/hook/ament_prefix_path.dsv'
+[0.408s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2/install/chassis_driver/share/chassis_driver/hook/ament_prefix_path.sh'
+[0.409s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.409s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.412s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orangepi/ros2/src/LSLIDAR_X_ROS2-20240228/src/lslidar_msgs' with build type 'ament_cmake'
+[0.412s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orangepi/ros2/src/LSLIDAR_X_ROS2-20240228/src/lslidar_msgs'
+[0.412s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.412s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.416s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/orangepi/ros2/src/imu_odometry' with build type 'ament_python'
+[0.416s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_odometry', 'ament_prefix_path')
+[0.416s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2/install/imu_odometry/share/imu_odometry/hook/ament_prefix_path.ps1'
+[0.417s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2/install/imu_odometry/share/imu_odometry/hook/ament_prefix_path.dsv'
+[0.417s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2/install/imu_odometry/share/imu_odometry/hook/ament_prefix_path.sh'
+[0.449s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.449s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.460s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/ros2/build/astra_camera_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/orangepi/ros2/build/astra_camera_msgs -- -j8 -l8
+[0.927s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/orangepi/ros2/src/chassis_driver'
+[0.928s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.928s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.950s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/ros2/build/lslidar_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/orangepi/ros2/src/LSLIDAR_X_ROS2-20240228/src/lslidar_msgs -DCMAKE_INSTALL_PREFIX=/home/orangepi/ros2/install/lslidar_msgs
+[1.375s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/orangepi/ros2/src/imu_odometry'
+[1.375s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.375s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.393s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/ros2/build/astra_camera_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/orangepi/ros2/build/astra_camera_msgs -- -j8 -l8
+[1.413s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/ros2/build/astra_camera_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/orangepi/ros2/build/astra_camera_msgs
+[1.512s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(astra_camera_msgs)
+[1.516s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/astra_camera_msgs' for CMake module files
+[1.517s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/astra_camera_msgs' for CMake config files
+[1.518s] Level 1:colcon.colcon_core.shell:create_environment_hook('astra_camera_msgs', 'cmake_prefix_path')
+[1.518s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2/install/astra_camera_msgs/share/astra_camera_msgs/hook/cmake_prefix_path.ps1'
+[1.520s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2/install/astra_camera_msgs/share/astra_camera_msgs/hook/cmake_prefix_path.dsv'
+[1.521s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2/install/astra_camera_msgs/share/astra_camera_msgs/hook/cmake_prefix_path.sh'
+[1.522s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/astra_camera_msgs/lib'
+[1.522s] Level 1:colcon.colcon_core.shell:create_environment_hook('astra_camera_msgs', 'ld_library_path_lib')
+[1.523s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2/install/astra_camera_msgs/share/astra_camera_msgs/hook/ld_library_path_lib.ps1'
+[1.523s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2/install/astra_camera_msgs/share/astra_camera_msgs/hook/ld_library_path_lib.dsv'
+[1.524s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2/install/astra_camera_msgs/share/astra_camera_msgs/hook/ld_library_path_lib.sh'
+[1.525s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/astra_camera_msgs/bin'
+[1.525s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/astra_camera_msgs/lib/pkgconfig/astra_camera_msgs.pc'
+[1.525s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/astra_camera_msgs/lib/python3.10/site-packages'
+[1.526s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/astra_camera_msgs/bin'
+[1.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2/install/astra_camera_msgs/share/astra_camera_msgs/package.ps1'
+[1.528s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/ros2/install/astra_camera_msgs/share/astra_camera_msgs/package.dsv'
+[1.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2/install/astra_camera_msgs/share/astra_camera_msgs/package.sh'
+[1.530s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2/install/astra_camera_msgs/share/astra_camera_msgs/package.bash'
+[1.531s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2/install/astra_camera_msgs/share/astra_camera_msgs/package.zsh'
+[1.534s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/ros2/install/astra_camera_msgs/share/colcon-core/packages/astra_camera_msgs)
+[1.538s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(astra_camera_msgs)
+[1.538s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/astra_camera_msgs' for CMake module files
+[1.542s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/astra_camera_msgs' for CMake config files
+[1.544s] Level 1:colcon.colcon_core.shell:create_environment_hook('astra_camera_msgs', 'cmake_prefix_path')
+[1.545s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2/install/astra_camera_msgs/share/astra_camera_msgs/hook/cmake_prefix_path.ps1'
+[1.547s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2/install/astra_camera_msgs/share/astra_camera_msgs/hook/cmake_prefix_path.dsv'
+[1.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2/install/astra_camera_msgs/share/astra_camera_msgs/hook/cmake_prefix_path.sh'
+[1.549s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/astra_camera_msgs/lib'
+[1.550s] Level 1:colcon.colcon_core.shell:create_environment_hook('astra_camera_msgs', 'ld_library_path_lib')
+[1.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2/install/astra_camera_msgs/share/astra_camera_msgs/hook/ld_library_path_lib.ps1'
+[1.551s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2/install/astra_camera_msgs/share/astra_camera_msgs/hook/ld_library_path_lib.dsv'
+[1.552s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2/install/astra_camera_msgs/share/astra_camera_msgs/hook/ld_library_path_lib.sh'
+[1.553s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/astra_camera_msgs/bin'
+[1.554s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/astra_camera_msgs/lib/pkgconfig/astra_camera_msgs.pc'
+[1.554s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/astra_camera_msgs/lib/python3.10/site-packages'
+[1.554s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/astra_camera_msgs/bin'
+[1.555s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2/install/astra_camera_msgs/share/astra_camera_msgs/package.ps1'
+[1.557s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/ros2/install/astra_camera_msgs/share/astra_camera_msgs/package.dsv'
+[1.558s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2/install/astra_camera_msgs/share/astra_camera_msgs/package.sh'
+[1.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2/install/astra_camera_msgs/share/astra_camera_msgs/package.bash'
+[1.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2/install/astra_camera_msgs/share/astra_camera_msgs/package.zsh'
+[1.560s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/ros2/install/astra_camera_msgs/share/colcon-core/packages/astra_camera_msgs)
+[1.561s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orangepi/ros2/src/ros2_astra_camera/astra_camera' with build type 'ament_cmake'
+[1.561s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orangepi/ros2/src/ros2_astra_camera/astra_camera'
+[1.562s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.562s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.568s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/ros2/build/astra_camera_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/orangepi/ros2/build/astra_camera_msgs
+[1.604s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/ros2/build/astra_camera': AMENT_PREFIX_PATH=/home/orangepi/ros2/install/astra_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/ros2/install/astra_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/ros2/install/astra_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/ros2/install/astra_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/orangepi/ros2/build/astra_camera -- -j8 -l8
+[1.958s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/ros2/build/astra_camera' returned '0': AMENT_PREFIX_PATH=/home/orangepi/ros2/install/astra_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/ros2/install/astra_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/ros2/install/astra_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/ros2/install/astra_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/orangepi/ros2/build/astra_camera -- -j8 -l8
+[1.967s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/ros2/build/astra_camera': AMENT_PREFIX_PATH=/home/orangepi/ros2/install/astra_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/ros2/install/astra_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/ros2/install/astra_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/ros2/install/astra_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/orangepi/ros2/build/astra_camera
+[2.028s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(astra_camera)
+[2.030s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/astra_camera' for CMake module files
+[2.038s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/ros2/src/chassis_driver': PYTHONPATH=/home/orangepi/ros2/build/chassis_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/ros2/install/chassis_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/chassis_driver build --build-base /home/orangepi/ros2/build/chassis_driver/build install --record /home/orangepi/ros2/build/chassis_driver/install.log --single-version-externally-managed install_data
+[2.039s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/ros2/build/astra_camera' returned '0': AMENT_PREFIX_PATH=/home/orangepi/ros2/install/astra_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/ros2/install/astra_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/ros2/install/astra_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/ros2/install/astra_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/orangepi/ros2/build/astra_camera
+[2.039s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/astra_camera' for CMake config files
+[2.040s] Level 1:colcon.colcon_core.shell:create_environment_hook('astra_camera', 'cmake_prefix_path')
+[2.041s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2/install/astra_camera/share/astra_camera/hook/cmake_prefix_path.ps1'
+[2.042s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2/install/astra_camera/share/astra_camera/hook/cmake_prefix_path.dsv'
+[2.042s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2/install/astra_camera/share/astra_camera/hook/cmake_prefix_path.sh'
+[2.043s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/astra_camera/lib'
+[2.043s] Level 1:colcon.colcon_core.shell:create_environment_hook('astra_camera', 'ld_library_path_lib')
+[2.044s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2/install/astra_camera/share/astra_camera/hook/ld_library_path_lib.ps1'
+[2.044s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2/install/astra_camera/share/astra_camera/hook/ld_library_path_lib.dsv'
+[2.044s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2/install/astra_camera/share/astra_camera/hook/ld_library_path_lib.sh'
+[2.045s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/astra_camera/bin'
+[2.045s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/astra_camera/lib/pkgconfig/astra_camera.pc'
+[2.045s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/astra_camera/lib/python3.10/site-packages'
+[2.046s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/astra_camera/bin'
+[2.046s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2/install/astra_camera/share/astra_camera/package.ps1'
+[2.047s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/ros2/install/astra_camera/share/astra_camera/package.dsv'
+[2.048s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2/install/astra_camera/share/astra_camera/package.sh'
+[2.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2/install/astra_camera/share/astra_camera/package.bash'
+[2.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2/install/astra_camera/share/astra_camera/package.zsh'
+[2.050s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/ros2/install/astra_camera/share/colcon-core/packages/astra_camera)
+[2.050s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(astra_camera)
+[2.051s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/astra_camera' for CMake module files
+[2.051s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/astra_camera' for CMake config files
+[2.052s] Level 1:colcon.colcon_core.shell:create_environment_hook('astra_camera', 'cmake_prefix_path')
+[2.052s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2/install/astra_camera/share/astra_camera/hook/cmake_prefix_path.ps1'
+[2.053s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2/install/astra_camera/share/astra_camera/hook/cmake_prefix_path.dsv'
+[2.053s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2/install/astra_camera/share/astra_camera/hook/cmake_prefix_path.sh'
+[2.054s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/astra_camera/lib'
+[2.054s] Level 1:colcon.colcon_core.shell:create_environment_hook('astra_camera', 'ld_library_path_lib')
+[2.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2/install/astra_camera/share/astra_camera/hook/ld_library_path_lib.ps1'
+[2.056s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2/install/astra_camera/share/astra_camera/hook/ld_library_path_lib.dsv'
+[2.056s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2/install/astra_camera/share/astra_camera/hook/ld_library_path_lib.sh'
+[2.057s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/astra_camera/bin'
+[2.057s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/astra_camera/lib/pkgconfig/astra_camera.pc'
+[2.058s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/astra_camera/lib/python3.10/site-packages'
+[2.058s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/astra_camera/bin'
+[2.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2/install/astra_camera/share/astra_camera/package.ps1'
+[2.061s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/ros2/install/astra_camera/share/astra_camera/package.dsv'
+[2.062s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2/install/astra_camera/share/astra_camera/package.sh'
+[2.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2/install/astra_camera/share/astra_camera/package.bash'
+[2.064s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2/install/astra_camera/share/astra_camera/package.zsh'
+[2.065s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/ros2/install/astra_camera/share/colcon-core/packages/astra_camera)
+[2.072s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/ros2/src/imu_odometry': PYTHONPATH=/home/orangepi/ros2/build/imu_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/ros2/install/imu_odometry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/imu_odometry build --build-base /home/orangepi/ros2/build/imu_odometry/build install --record /home/orangepi/ros2/build/imu_odometry/install.log --single-version-externally-managed install_data
+[2.537s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/chassis_driver' for CMake module files
+[2.537s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/chassis_driver' for CMake config files
+[2.538s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/chassis_driver/lib'
+[2.538s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/chassis_driver/bin'
+[2.538s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/chassis_driver/lib/pkgconfig/chassis_driver.pc'
+[2.539s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/chassis_driver/lib/python3.10/site-packages'
+[2.539s] Level 1:colcon.colcon_core.shell:create_environment_hook('chassis_driver', 'pythonpath')
+[2.539s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2/install/chassis_driver/share/chassis_driver/hook/pythonpath.ps1'
+[2.540s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2/install/chassis_driver/share/chassis_driver/hook/pythonpath.dsv'
+[2.541s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2/install/chassis_driver/share/chassis_driver/hook/pythonpath.sh'
+[2.541s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/ros2/src/chassis_driver' returned '0': PYTHONPATH=/home/orangepi/ros2/build/chassis_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/ros2/install/chassis_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/chassis_driver build --build-base /home/orangepi/ros2/build/chassis_driver/build install --record /home/orangepi/ros2/build/chassis_driver/install.log --single-version-externally-managed install_data
+[2.543s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/chassis_driver/bin'
+[2.543s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(chassis_driver)
+[2.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2/install/chassis_driver/share/chassis_driver/package.ps1'
+[2.546s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/ros2/install/chassis_driver/share/chassis_driver/package.dsv'
+[2.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2/install/chassis_driver/share/chassis_driver/package.sh'
+[2.549s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2/install/chassis_driver/share/chassis_driver/package.bash'
+[2.550s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2/install/chassis_driver/share/chassis_driver/package.zsh'
+[2.550s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/ros2/install/chassis_driver/share/colcon-core/packages/chassis_driver)
+[2.552s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/orangepi/ros2/src/my_robot_launch' with build type 'ament_python'
+[2.552s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_launch', 'ament_prefix_path')
+[2.553s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2/install/my_robot_launch/share/my_robot_launch/hook/ament_prefix_path.ps1'
+[2.554s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2/install/my_robot_launch/share/my_robot_launch/hook/ament_prefix_path.dsv'
+[2.555s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2/install/my_robot_launch/share/my_robot_launch/hook/ament_prefix_path.sh'
+[2.556s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.556s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.006s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/orangepi/ros2/src/my_robot_launch'
+[3.007s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.007s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.015s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/imu_odometry' for CMake module files
+[3.017s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/ros2/src/imu_odometry' returned '0': PYTHONPATH=/home/orangepi/ros2/build/imu_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/ros2/install/imu_odometry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/imu_odometry build --build-base /home/orangepi/ros2/build/imu_odometry/build install --record /home/orangepi/ros2/build/imu_odometry/install.log --single-version-externally-managed install_data
+[3.018s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/imu_odometry' for CMake config files
+[3.019s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/imu_odometry/lib'
+[3.019s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/imu_odometry/bin'
+[3.019s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/imu_odometry/lib/pkgconfig/imu_odometry.pc'
+[3.020s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/imu_odometry/lib/python3.10/site-packages'
+[3.020s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_odometry', 'pythonpath')
+[3.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2/install/imu_odometry/share/imu_odometry/hook/pythonpath.ps1'
+[3.021s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2/install/imu_odometry/share/imu_odometry/hook/pythonpath.dsv'
+[3.021s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2/install/imu_odometry/share/imu_odometry/hook/pythonpath.sh'
+[3.022s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/imu_odometry/bin'
+[3.022s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_odometry)
+[3.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2/install/imu_odometry/share/imu_odometry/package.ps1'
+[3.023s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/ros2/install/imu_odometry/share/imu_odometry/package.dsv'
+[3.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2/install/imu_odometry/share/imu_odometry/package.sh'
+[3.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2/install/imu_odometry/share/imu_odometry/package.bash'
+[3.025s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2/install/imu_odometry/share/imu_odometry/package.zsh'
+[3.025s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/ros2/install/imu_odometry/share/colcon-core/packages/imu_odometry)
+[3.647s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/ros2/src/my_robot_launch': AMENT_PREFIX_PATH=/home/orangepi/ros2/install/astra_camera:/home/orangepi/ros2/install/chassis_driver:/home/orangepi/ros2/install/astra_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/ros2/install/astra_camera:/home/orangepi/ros2/install/astra_camera_msgs LD_LIBRARY_PATH=/home/orangepi/ros2/install/astra_camera/lib:/home/orangepi/ros2/install/astra_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/ros2/build/my_robot_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/ros2/install/my_robot_launch/lib/python3.10/site-packages:/home/orangepi/ros2/install/chassis_driver/lib/python3.10/site-packages:/home/orangepi/ros2/install/astra_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_launch build --build-base /home/orangepi/ros2/build/my_robot_launch/build install --record /home/orangepi/ros2/build/my_robot_launch/install.log --single-version-externally-managed install_data
+[4.156s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/my_robot_launch' for CMake module files
+[4.157s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/ros2/src/my_robot_launch' returned '0': AMENT_PREFIX_PATH=/home/orangepi/ros2/install/astra_camera:/home/orangepi/ros2/install/chassis_driver:/home/orangepi/ros2/install/astra_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/ros2/install/astra_camera:/home/orangepi/ros2/install/astra_camera_msgs LD_LIBRARY_PATH=/home/orangepi/ros2/install/astra_camera/lib:/home/orangepi/ros2/install/astra_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/ros2/build/my_robot_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/ros2/install/my_robot_launch/lib/python3.10/site-packages:/home/orangepi/ros2/install/chassis_driver/lib/python3.10/site-packages:/home/orangepi/ros2/install/astra_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_launch build --build-base /home/orangepi/ros2/build/my_robot_launch/build install --record /home/orangepi/ros2/build/my_robot_launch/install.log --single-version-externally-managed install_data
+[4.158s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/my_robot_launch' for CMake config files
+[4.158s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/my_robot_launch/lib'
+[4.158s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/my_robot_launch/bin'
+[4.158s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/my_robot_launch/lib/pkgconfig/my_robot_launch.pc'
+[4.159s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/my_robot_launch/lib/python3.10/site-packages'
+[4.159s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_launch', 'pythonpath')
+[4.159s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2/install/my_robot_launch/share/my_robot_launch/hook/pythonpath.ps1'
+[4.160s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2/install/my_robot_launch/share/my_robot_launch/hook/pythonpath.dsv'
+[4.161s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2/install/my_robot_launch/share/my_robot_launch/hook/pythonpath.sh'
+[4.163s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/my_robot_launch/bin'
+[4.163s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_launch)
+[4.164s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2/install/my_robot_launch/share/my_robot_launch/package.ps1'
+[4.164s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/ros2/install/my_robot_launch/share/my_robot_launch/package.dsv'
+[4.165s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2/install/my_robot_launch/share/my_robot_launch/package.sh'
+[4.165s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2/install/my_robot_launch/share/my_robot_launch/package.bash'
+[4.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2/install/my_robot_launch/share/my_robot_launch/package.zsh'
+[4.166s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/ros2/install/my_robot_launch/share/colcon-core/packages/my_robot_launch)
+[4.414s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/ros2/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/orangepi/ros2/src/LSLIDAR_X_ROS2-20240228/src/lslidar_msgs -DCMAKE_INSTALL_PREFIX=/home/orangepi/ros2/install/lslidar_msgs
+[4.417s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/ros2/build/lslidar_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/orangepi/ros2/build/lslidar_msgs -- -j8 -l8
+[20.764s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/ros2/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/orangepi/ros2/build/lslidar_msgs -- -j8 -l8
+[20.771s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/ros2/build/lslidar_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/orangepi/ros2/build/lslidar_msgs
+[20.943s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lslidar_msgs)
+[20.944s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/lslidar_msgs' for CMake module files
+[20.946s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/lslidar_msgs' for CMake config files
+[20.947s] Level 1:colcon.colcon_core.shell:create_environment_hook('lslidar_msgs', 'cmake_prefix_path')
+[20.948s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.ps1'
+[20.951s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/ros2/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/orangepi/ros2/build/lslidar_msgs
+[20.951s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.dsv'
+[20.952s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.sh'
+[20.953s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/lslidar_msgs/lib'
+[20.954s] Level 1:colcon.colcon_core.shell:create_environment_hook('lslidar_msgs', 'ld_library_path_lib')
+[20.954s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.ps1'
+[20.955s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.dsv'
+[20.955s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.sh'
+[20.956s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/lslidar_msgs/bin'
+[20.956s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/lslidar_msgs/lib/pkgconfig/lslidar_msgs.pc'
+[20.957s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/lslidar_msgs/lib/python3.10/site-packages'
+[20.958s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/lslidar_msgs/bin'
+[20.958s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2/install/lslidar_msgs/share/lslidar_msgs/package.ps1'
+[20.959s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/ros2/install/lslidar_msgs/share/lslidar_msgs/package.dsv'
+[20.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2/install/lslidar_msgs/share/lslidar_msgs/package.sh'
+[20.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2/install/lslidar_msgs/share/lslidar_msgs/package.bash'
+[20.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2/install/lslidar_msgs/share/lslidar_msgs/package.zsh'
+[20.962s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/ros2/install/lslidar_msgs/share/colcon-core/packages/lslidar_msgs)
+[20.963s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lslidar_msgs)
+[20.963s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/lslidar_msgs' for CMake module files
+[20.964s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/lslidar_msgs' for CMake config files
+[20.965s] Level 1:colcon.colcon_core.shell:create_environment_hook('lslidar_msgs', 'cmake_prefix_path')
+[20.965s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.ps1'
+[20.967s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.dsv'
+[20.967s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.sh'
+[20.969s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/lslidar_msgs/lib'
+[20.969s] Level 1:colcon.colcon_core.shell:create_environment_hook('lslidar_msgs', 'ld_library_path_lib')
+[20.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.ps1'
+[20.971s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.dsv'
+[20.973s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.sh'
+[20.975s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/lslidar_msgs/bin'
+[20.975s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/lslidar_msgs/lib/pkgconfig/lslidar_msgs.pc'
+[20.976s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/lslidar_msgs/lib/python3.10/site-packages'
+[20.976s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/lslidar_msgs/bin'
+[20.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2/install/lslidar_msgs/share/lslidar_msgs/package.ps1'
+[20.979s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/ros2/install/lslidar_msgs/share/lslidar_msgs/package.dsv'
+[20.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2/install/lslidar_msgs/share/lslidar_msgs/package.sh'
+[20.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2/install/lslidar_msgs/share/lslidar_msgs/package.bash'
+[20.981s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2/install/lslidar_msgs/share/lslidar_msgs/package.zsh'
+[20.981s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/ros2/install/lslidar_msgs/share/colcon-core/packages/lslidar_msgs)
+[20.982s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orangepi/ros2/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver' with build type 'ament_cmake'
+[20.982s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orangepi/ros2/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver'
+[20.982s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[20.982s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[21.005s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/ros2/build/lslidar_driver': AMENT_PREFIX_PATH=/home/orangepi/ros2/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/ros2/install/lslidar_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/ros2/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/ros2/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/orangepi/ros2/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver -DCMAKE_INSTALL_PREFIX=/home/orangepi/ros2/install/lslidar_driver
+[28.683s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/ros2/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/home/orangepi/ros2/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/ros2/install/lslidar_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/ros2/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/ros2/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/orangepi/ros2/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver -DCMAKE_INSTALL_PREFIX=/home/orangepi/ros2/install/lslidar_driver
+[28.686s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/ros2/build/lslidar_driver': AMENT_PREFIX_PATH=/home/orangepi/ros2/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/ros2/install/lslidar_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/ros2/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/ros2/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/orangepi/ros2/build/lslidar_driver -- -j8 -l8
+[86.972s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/ros2/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/home/orangepi/ros2/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/ros2/install/lslidar_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/ros2/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/ros2/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/orangepi/ros2/build/lslidar_driver -- -j8 -l8
+[86.972s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/ros2/build/lslidar_driver': AMENT_PREFIX_PATH=/home/orangepi/ros2/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/ros2/install/lslidar_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/ros2/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/ros2/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/orangepi/ros2/build/lslidar_driver
+[87.012s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lslidar_driver)
+[87.013s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/lslidar_driver' for CMake module files
+[87.017s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/lslidar_driver' for CMake config files
+[87.019s] Level 1:colcon.colcon_core.shell:create_environment_hook('lslidar_driver', 'cmake_prefix_path')
+[87.022s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2/install/lslidar_driver/share/lslidar_driver/hook/cmake_prefix_path.ps1'
+[87.023s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/ros2/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/home/orangepi/ros2/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/ros2/install/lslidar_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/ros2/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/ros2/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/orangepi/ros2/build/lslidar_driver
+[87.026s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2/install/lslidar_driver/share/lslidar_driver/hook/cmake_prefix_path.dsv'
+[87.033s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2/install/lslidar_driver/share/lslidar_driver/hook/cmake_prefix_path.sh'
+[87.034s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/lslidar_driver/lib'
+[87.034s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/lslidar_driver/bin'
+[87.035s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/lslidar_driver/lib/pkgconfig/lslidar_driver.pc'
+[87.035s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/lslidar_driver/lib/python3.10/site-packages'
+[87.036s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/lslidar_driver/bin'
+[87.037s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2/install/lslidar_driver/share/lslidar_driver/package.ps1'
+[87.039s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/ros2/install/lslidar_driver/share/lslidar_driver/package.dsv'
+[87.040s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2/install/lslidar_driver/share/lslidar_driver/package.sh'
+[87.041s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2/install/lslidar_driver/share/lslidar_driver/package.bash'
+[87.042s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2/install/lslidar_driver/share/lslidar_driver/package.zsh'
+[87.042s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/ros2/install/lslidar_driver/share/colcon-core/packages/lslidar_driver)
+[87.044s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lslidar_driver)
+[87.044s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/lslidar_driver' for CMake module files
+[87.045s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/lslidar_driver' for CMake config files
+[87.045s] Level 1:colcon.colcon_core.shell:create_environment_hook('lslidar_driver', 'cmake_prefix_path')
+[87.046s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2/install/lslidar_driver/share/lslidar_driver/hook/cmake_prefix_path.ps1'
+[87.047s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2/install/lslidar_driver/share/lslidar_driver/hook/cmake_prefix_path.dsv'
+[87.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2/install/lslidar_driver/share/lslidar_driver/hook/cmake_prefix_path.sh'
+[87.049s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/lslidar_driver/lib'
+[87.050s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/lslidar_driver/bin'
+[87.050s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/lslidar_driver/lib/pkgconfig/lslidar_driver.pc'
+[87.050s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/lslidar_driver/lib/python3.10/site-packages'
+[87.051s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2/install/lslidar_driver/bin'
+[87.054s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2/install/lslidar_driver/share/lslidar_driver/package.ps1'
+[87.056s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/ros2/install/lslidar_driver/share/lslidar_driver/package.dsv'
+[87.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2/install/lslidar_driver/share/lslidar_driver/package.sh'
+[87.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2/install/lslidar_driver/share/lslidar_driver/package.bash'
+[87.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2/install/lslidar_driver/share/lslidar_driver/package.zsh'
+[87.060s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/ros2/install/lslidar_driver/share/colcon-core/packages/lslidar_driver)
+[87.062s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[87.063s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[87.065s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[87.065s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[87.076s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[87.076s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[87.076s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[87.122s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[87.123s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orangepi/ros2/install/local_setup.ps1'
+[87.126s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/orangepi/ros2/install/_local_setup_util_ps1.py'
+[87.130s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orangepi/ros2/install/setup.ps1'
+[87.132s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orangepi/ros2/install/local_setup.sh'
+[87.133s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/orangepi/ros2/install/_local_setup_util_sh.py'
+[87.134s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orangepi/ros2/install/setup.sh'
+[87.137s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orangepi/ros2/install/local_setup.bash'
+[87.138s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orangepi/ros2/install/setup.bash'
+[87.140s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orangepi/ros2/install/local_setup.zsh'
+[87.141s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orangepi/ros2/install/setup.zsh'
