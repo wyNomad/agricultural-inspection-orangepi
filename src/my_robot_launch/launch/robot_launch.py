@@ -42,16 +42,16 @@ def generate_launch_description():
         condition=IfCondition(see_conf)
     )
 
-    # # 彩色图压缩
-    # color_republish_node = Node(
-    #     package='image_transport',
-    #     executable='republish',
-    #     name='color_republish',
-    #     arguments=['raw', 'compressed'],
-    #     remappings=[('in', '/camera/color/image_raw'),
-    #                 ('out/compressed', '/camera/color/image_raw/compressed')],
-    #     condition=IfCondition(see_conf)
-    # )
+    # 彩色图压缩
+    color_republish_node = Node(
+        package='image_transport',
+        executable='republish',
+        name='color_republish',
+        arguments=['raw', 'compressed'],
+        remappings=[('in', '/camera/color/image_raw'),
+                    ('out/compressed', '/camera/color/image_raw/compressed')],
+        condition=IfCondition(see_conf)
+    )
 
     # # 深度图压缩
     # depth_republish_node = Node(
@@ -92,7 +92,7 @@ def generate_launch_description():
         # [SEE] 组
         lslidar_launch,
         astra_launch,
-        # color_republish_node,
+        color_republish_node,
         # depth_republish_node,
         
         # [MOVE] 组
