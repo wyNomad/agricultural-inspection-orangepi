@@ -1,5 +1,0 @@
-[0.438s] Invoking command in '/home/orangepi/ros2_ws/build/lslidar_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/orangepi/ros2_ws/build/lslidar_msgs -- -j8 -l8
-[0.450s] [0mCMake Error: The current CMakeCache.txt directory /home/orangepi/ros2_ws/build/lslidar_msgs/CMakeCache.txt is different than the directory /home/orangepi/ros2/build/lslidar_msgs where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
-[0.481s] [0mCMake Error: The source directory "/home/orangepi/ros2/src/LSLIDAR_X_ROS2-20240228/src/lslidar_msgs" does not exist.
-[0.481s] Specify --help for usage, or press the help button on the CMake GUI.[0m
-[0.481s] gmake: *** [Makefile:1611: cmake_check_build_system] Error 1

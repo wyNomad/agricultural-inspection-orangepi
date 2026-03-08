@@ -1,4 +1,0 @@
-source;share/lslidar_msgs/local_setup.bash
-source;share/lslidar_msgs/local_setup.dsv
-source;share/lslidar_msgs/local_setup.sh
-source;share/lslidar_msgs/local_setup.zsh

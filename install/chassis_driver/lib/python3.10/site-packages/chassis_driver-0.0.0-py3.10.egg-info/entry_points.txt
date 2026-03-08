@@ -1,3 +1,0 @@
-[console_scripts]
-serial_bridge = chassis_driver.serial_bridge:main
-

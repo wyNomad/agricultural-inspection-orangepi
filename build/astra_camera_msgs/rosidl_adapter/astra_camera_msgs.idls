@@ -1,9 +1,0 @@
-/home/orangepi/ros2/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:msg/DeviceInfo.idl
-/home/orangepi/ros2/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:msg/Extrinsics.idl
-/home/orangepi/ros2/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:msg/Metadata.idl
-/home/orangepi/ros2/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:srv/GetDeviceInfo.idl
-/home/orangepi/ros2/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:srv/GetCameraInfo.idl
-/home/orangepi/ros2/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:srv/GetCameraParams.idl
-/home/orangepi/ros2/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:srv/GetInt32.idl
-/home/orangepi/ros2/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:srv/GetString.idl
-/home/orangepi/ros2/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:srv/SetInt32.idl

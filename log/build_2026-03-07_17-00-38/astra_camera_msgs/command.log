@@ -1,6 +1,0 @@
-Invoking command in '/home/orangepi/ros2/build/astra_camera_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/orangepi/ros2/src/ros2_astra_camera/astra_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/orangepi/ros2/install/astra_camera_msgs
-Invoked command in '/home/orangepi/ros2/build/astra_camera_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/orangepi/ros2/src/ros2_astra_camera/astra_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/orangepi/ros2/install/astra_camera_msgs
-Invoking command in '/home/orangepi/ros2/build/astra_camera_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/orangepi/ros2/build/astra_camera_msgs -- -j8 -l8
-Invoked command in '/home/orangepi/ros2/build/astra_camera_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/orangepi/ros2/build/astra_camera_msgs -- -j8 -l8
-Invoking command in '/home/orangepi/ros2/build/astra_camera_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/orangepi/ros2/build/astra_camera_msgs
-Invoked command in '/home/orangepi/ros2/build/astra_camera_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/orangepi/ros2/build/astra_camera_msgs
