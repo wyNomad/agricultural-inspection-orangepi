@@ -118,7 +118,8 @@ def generate_launch_description():
             ('rgb/camera_info', '/camera/color/camera_info'),
             ('scan', '/scan'),
         ],
-        arguments=['--delete_db_on_start']                # 每次启动清空旧数据库，适合建图阶段
+        arguments=['--delete_db_on_start'],                # 每次启动清空旧数据库，适合建图阶段
+        condition=IfCondition(LaunchConfiguration('slam'))
     )
 
     # 6.视觉里程计
