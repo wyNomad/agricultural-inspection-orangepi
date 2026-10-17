@@ -1,8 +1,10 @@
-# ROS 2 Mobile Robot Integration
+# Agricultural Inspection Robot · Orange Pi Workspace
 
-**底盘、IMU、RGB-D 相机、激光雷达与 SLAM / 导航的整机集成工作空间。**
+**农业巡检机器人项目的香橙派侧 ROS 2 工作空间，中期成果。**
 
-本仓库围绕移动机器人组织硬件接入和感知导航模块，包含串口底盘驱动、传感器启动、RTAB-Map、EKF 与 Nav2 配置。部分地图与路径保留了原设备环境，需要迁移配置后再运行。
+本仓库保存农业巡检机器人项目部署在香橙派主控上的部分 ROS 2 包，包含底盘、IMU、RGB-D 相机、雷达、建图定位与导航配置。该项目采用香橙派与 Jetson Nano 双主控，当前仓库对应香橙派侧的中期工程快照，最终版本暂未公开。
+
+同一项目的早期工程结构见 [`agricultural-inspection-robot`](https://github.com/wyNomad/agricultural-inspection-robot)。当前代码仍保留历史设备路径和调试配置。
 
 ## 工作空间组成
 
@@ -86,7 +88,7 @@ ros2 topic hz /wheel/odom
 
 ## 与其他仓库的关系
 
-[`agricultural-inspection-robot`](https://github.com/wyNomad/agricultural-inspection-robot) 额外包含机械臂、MoveIt 和跟随实验，本仓库则加入了底盘、雷达和整机组合启动。双方共享部分包，不代表可以直接互换所有启动文件。
+本仓库与 [`agricultural-inspection-robot`](https://github.com/wyNomad/agricultural-inspection-robot) 属于同一个农业巡检机器人项目：后者保留早期工程结构，本仓库保留香橙派侧中期包。两者阶段和板端配置不同，目前均为阶段性成果，最终版本暂未公开。
 
 存在同名包的工作空间应分别构建、分别加载，避免叠加环境后加载到另一份配置。
 
@@ -94,7 +96,7 @@ ros2 topic hz /wheel/odom
 
 本轮依据源码核对包、启动入口和配置差异，尚未进行全量构建或整机运行验证。
 
-后续重点：明确硬件清单与系统版本、参数化地图/串口、整理地图来源、补齐依赖声明，再确定长期维护主线。
+当前仓库作为香橙派侧中期成果保留；环境、地图及配置应按对应阶段查阅，最终版本暂未公开。
 
 ## 代码来源与许可证
 
