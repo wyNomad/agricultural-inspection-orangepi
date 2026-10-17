@@ -1,5 +1,7 @@
 # Agricultural Inspection Robot · Orange Pi Workspace
 
+[![Repository checks](https://github.com/wyNomad/agricultural-inspection-orangepi/actions/workflows/repository-checks.yml/badge.svg)](https://github.com/wyNomad/agricultural-inspection-orangepi/actions/workflows/repository-checks.yml)
+
 **农业巡检机器人项目的香橙派侧 ROS 2 工作空间，中期成果。**
 
 本仓库保存农业巡检机器人项目部署在香橙派主控上的部分 ROS 2 包，包含底盘、IMU、RGB-D 相机、雷达、建图定位与导航配置。该项目采用香橙派与 Jetson Nano 双主控，当前仓库对应香橙派侧的中期工程快照，最终版本暂未公开。
@@ -101,3 +103,7 @@ ros2 topic hz /wheel/odom
 ## 代码来源与许可证
 
 工作空间包含外部设备驱动、地图与模型资源。请遵循各子目录原有的许可证和资源授权；根目录尚未声明统一许可证。
+
+## 维护与协作
+
+问题反馈、修改流程和检查范围见 [维护指南](CONTRIBUTING.md)。提交前可运行本地静态检查；硬件、训练或部署结果需另外记录验证环境。
