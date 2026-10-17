@@ -25,8 +25,8 @@
 需要 Linux、ROS 2、colcon 和 rosdep。以下采用 ROS 2 Humble 路径举例，历史设备镜像与完整版本组合尚未记录为验证矩阵。
 
 ```bash
-git clone https://github.com/wyNomad/ros2.git
-cd ros2
+git clone https://github.com/wyNomad/agricultural-inspection-orangepi.git
+cd agricultural-inspection-orangepi
 source /opt/ros/humble/setup.bash
 rosdep install --from-paths src --ignore-src --rosdistro "$ROS_DISTRO" -y
 colcon build --symlink-install
