@@ -86,7 +86,7 @@ ros2 topic hz /wheel/odom
 
 ## 与其他仓库的关系
 
-[`vm_ros2_ws`](https://github.com/wyNomad/vm_ros2_ws) 额外包含机械臂、MoveIt 和跟随实验，本仓库则加入了底盘、雷达和整机组合启动。双方共享部分包，不代表可以直接互换所有启动文件。
+[`agricultural-inspection-robot`](https://github.com/wyNomad/agricultural-inspection-robot) 额外包含机械臂、MoveIt 和跟随实验，本仓库则加入了底盘、雷达和整机组合启动。双方共享部分包，不代表可以直接互换所有启动文件。
 
 存在同名包的工作空间应分别构建、分别加载，避免叠加环境后加载到另一份配置。
 
